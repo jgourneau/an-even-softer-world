@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<iframe id="output" height=800 width=1200></iframe>
+<script type="text/javascript">
+  let a = Math.floor(Math.random() * 1243) + 1; 
+  let addr = "https://www.asofterworld.com/index.php?id=" + a.toString()
+  document.getElementById("output").setAttribute("src", addr);
+</script>
+</body>
+</html>
